@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.ListFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <!--<EditText
+            android:id="@+id/NombreMazo"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="2"
+            android:hint="@string/NombreMazo"
+            android:layout_margin="16dp"
+            />
+            -->
+            <Button
+                android:id="@+id/BotonAtras"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_margin="8dp"
+                android:text="@string/Atras"
+                android:textStyle="bold"
+                android:background="@color/listo"
+                android:layout_alignParentLeft="true"
+                />
+            <Button
+
+                android:id="@+id/BotonListo"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_margin="8dp"
+                android:text="@string/Listo"
+                android:textStyle="bold"
+                android:layout_alignParentRight="true"
+                android:background="@color/listo"/>
+
+        </RelativeLayout>
+
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/transparente"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerViewLista"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            tools:listitem="@layout/item_row_lista" />
+
+
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

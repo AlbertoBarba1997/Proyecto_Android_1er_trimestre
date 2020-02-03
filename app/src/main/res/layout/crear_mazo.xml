@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/fondo4">
+
+
+        <fragment
+            android:id="@+id/list_fragment"
+            android:name="com.example.android.proyecto.fragments.ListFragment"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9"
+            />
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="12"
+            android:id="@+id/card_fragment"
+            android:name="com.example.android.proyecto.fragments.CardsFragment"/>
+
+
+
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

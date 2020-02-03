@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".OpcionesActivity"
+    android:background="@drawable/fondo1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:id="@+id/botonCrear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:onClick="CrearOnClick"
+            android:text="@string/CrearMazo"
+            android:textColor="@color/white"
+
+
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/botonElegir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"
+            android:onClick="VerOnClick"
+            android:text="@string/VerMazos"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+
+
+
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

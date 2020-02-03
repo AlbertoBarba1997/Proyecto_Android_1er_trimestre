@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MazosCreadosActivity"
+    android:background="@drawable/fondomarron">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:background="@drawable/fondopapiro">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerViewMazos"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/item_row_mazo"
+            android:layout_margin="60dp"
+            /></LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

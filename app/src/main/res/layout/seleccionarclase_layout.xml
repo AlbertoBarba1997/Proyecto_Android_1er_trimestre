@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:orientation="vertical" android:background="@drawable/fondomarron"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/fondopapiro"
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="SELECCIONA UNA CLASE:"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="28dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:text="@string/Druida"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:id="@+id/ClaseDruida"
+                android:layout_width="240dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:onClick="DruidaSeleccionado"
+                android:src="@drawable/ccdruida" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:text="@string/Sacerdote"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:id="@+id/ClaseSacerdote"
+                android:layout_width="240dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:onClick="SacerdoreSeleccionado"
+                android:src="@drawable/ccsacerdote" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:text="@string/Brujo"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:id="@+id/ClaseBrujo"
+                android:layout_width="240dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:onClick="BrujoSeleccionado"
+                android:src="@drawable/ccbrujo" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:text="@string/Mago"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:id="@+id/ClaseMago"
+                android:layout_width="240dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:onClick="MagoSeleccionado"
+                android:src="@drawable/ccmago" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:text="@string/Cazador"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:id="@+id/ClaseCazador"
+                android:layout_width="240dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:onClick="CazadorSeleccionado"
+                android:src="@drawable/cccazador" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:text="@string/Picaro"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:id="@+id/ClasePicaro"
+                android:layout_width="240dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:onClick="PicaroSeleccionado"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ccpicaro" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:text="@string/Paladin"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:id="@+id/ClasePaladin"
+                android:layout_width="240dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:onClick="PaladinSeleccionado"
+                android:src="@drawable/ccpaladin" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:text="@string/Guerrero"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:id="@+id/ClaseGuerrero"
+                android:layout_width="240dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:onClick="GuerreroSeleccionado"
+                android:src="@drawable/ccguerrero"
+                />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    </LinearLayout>
+</LinearLayout>
+
+

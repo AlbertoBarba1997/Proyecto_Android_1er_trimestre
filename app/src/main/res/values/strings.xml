@@ -1,0 +1,39 @@
+<resources>
+
+
+
+    <string name="contraseña">Contraseña</string>
+    <string name="nUsuario">Nombre de usuario</string>
+    <string name="sign_in">Entrar</string>
+    <string name="sing_up">¿No tienes cuenta? Crea una.</string>
+
+    <string name="SeleccionaClase">SELECCIONA UNA CLASE:</string>
+    <string name="Cazador">Cazador</string>
+    <string name="Druida">Druida</string>
+    <string name="Picaro">Pícaro</string>
+    <string name="Brujo">Brujo</string>
+    <string name="Mago">Mago</string>
+    <string name="Sacerdote">Sacerdote</string>
+    <string name="Paladin">Paladin</string>
+    <string name="Guerrero">Guerrero</string>
+
+    <string name="CartasNeutrales">CARTAS NEUTRALES:</string>
+    <string name="CartasClase">CARTAS DE CLASE:</string>
+
+
+    <string name="CrearMazo">CREAR UN MAZO</string>
+    <string name="VerMazos">VER TUS MAZOS</string>
+
+    <string name="SeleccionarMazo">SELECCIONA TU MAZO:</string>
+    <string name="NombreMazo">Nombre del mazo</string>
+
+    <string name="Listo">Listo</string>
+    <string name="Atras">Atrás</string>
+
+    <string name="LegendariaUnica">Legendaria unica</string>
+    <string name="MaximoSuperado">Máximo 30 cartas.</string>
+
+
+
+
+</resources>

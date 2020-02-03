@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_color">#775828</color>
+    <color name="dark_primary_color">#280f01</color>
+    <color name="accent_color">#FF5722</color>
+    <color name="grey_200">#eeeeee</color>
+    <color name="grey_300">#e0e0e0</color>
+    <color name="grey_400">#bdbdbd</color>
+
+    <color name="grey_100">#f5f5f5</color>>
+    <color name="white">#ffffff</color>>
+    <color name="black">#000000</color>>
+
+    <color name="mana">#51d3f7</color>>
+    <color name="poder">#eaff0a</color>>
+    <color name="vida">#ff3b38</color>
+
+    <color name="hcolor">#dbc255</color>
+    <color name="listo">#f2cf65</color>
+
+    <color name="transparente">#80f2cf65</color>
+    <color name="transparente2">#80000000</color>
+    <color name="transparente3">#806d6de5</color>
+
+    <color name="azul">#6d6de5</color>>
+
+
+
+
+
+
+</resources>
